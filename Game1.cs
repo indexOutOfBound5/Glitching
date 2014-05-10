@@ -18,7 +18,6 @@ namespace Dazzer
 
         StateManager level;
         Player playerOne;
-        Player playerTwo;
         Grid grid;
 
         public Game1()
@@ -33,7 +32,6 @@ namespace Dazzer
         {
             level = new StateManager();
             playerOne = new Player(Content);
-            playerTwo = new Player(Content);
             grid = new Grid(Content);
 
             base.Initialize();

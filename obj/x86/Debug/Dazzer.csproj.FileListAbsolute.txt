@@ -12,3 +12,15 @@ C:\Users\Darren Sweeney\Documents\Visual Studio 2013\Dazzer\Dazzer\obj\x86\Debug
 C:\Users\Darren Sweeney\Documents\Visual Studio 2013\Dazzer\Dazzer\obj\x86\Debug\Dazzer.pdb
 C:\Users\Darren Sweeney\Documents\Visual Studio 2013\Dazzer\Dazzer\bin\Debug\Content\Player.xnb
 C:\Users\Darren Sweeney\Documents\Visual Studio 2013\Dazzer\Dazzer\bin\Debug\Content\Rock.xnb
+C:\Users\ELAZAR55\Documents\GitHub\Glitching\bin\Debug\Content\Player.xnb
+C:\Users\ELAZAR55\Documents\GitHub\Glitching\bin\Debug\Content\Rock.xnb
+C:\Users\ELAZAR55\Documents\GitHub\Glitching\bin\Debug\Dazzer.exe
+C:\Users\ELAZAR55\Documents\GitHub\Glitching\bin\Debug\Dazzer.pdb
+C:\Users\ELAZAR55\Documents\GitHub\Glitching\bin\Debug\Lidgren.Network.dll
+C:\Users\ELAZAR55\Documents\GitHub\Glitching\bin\Debug\OpenTK.dll
+C:\Users\ELAZAR55\Documents\GitHub\Glitching\bin\Debug\Tao.Sdl.dll
+C:\Users\ELAZAR55\Documents\GitHub\Glitching\bin\Debug\Lidgren.Network.Windows.dll
+C:\Users\ELAZAR55\Documents\GitHub\Glitching\bin\Debug\Lidgren.Network.Windows.xml
+C:\Users\ELAZAR55\Documents\GitHub\Glitching\obj\x86\Debug\Dazzer.csprojResolveAssemblyReference.cache
+C:\Users\ELAZAR55\Documents\GitHub\Glitching\obj\x86\Debug\Dazzer.exe
+C:\Users\ELAZAR55\Documents\GitHub\Glitching\obj\x86\Debug\Dazzer.pdb
