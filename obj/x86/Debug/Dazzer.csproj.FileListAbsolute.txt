@@ -24,3 +24,24 @@ C:\Users\ELAZAR55\Documents\GitHub\Glitching\bin\Debug\Lidgren.Network.Windows.x
 C:\Users\ELAZAR55\Documents\GitHub\Glitching\obj\x86\Debug\Dazzer.csprojResolveAssemblyReference.cache
 C:\Users\ELAZAR55\Documents\GitHub\Glitching\obj\x86\Debug\Dazzer.exe
 C:\Users\ELAZAR55\Documents\GitHub\Glitching\obj\x86\Debug\Dazzer.pdb
+C:\Users\Darren Sweeney\Documents\GitHub\Glitching\obj\x86\Debug\Dazzer.exe
+C:\Users\Darren Sweeney\Documents\GitHub\Glitching\obj\x86\Debug\Dazzer.pdb
+C:\Users\Darren Sweeney\Documents\GitHub\Glitching\bin\Debug\Content\Player.xnb
+C:\Users\Darren Sweeney\Documents\GitHub\Glitching\bin\Debug\Content\Rock.xnb
+C:\Users\Darren Sweeney\Documents\GitHub\Glitching\bin\Debug\Dazzer.exe
+C:\Users\Darren Sweeney\Documents\GitHub\Glitching\bin\Debug\Dazzer.pdb
+C:\Users\Darren Sweeney\Documents\GitHub\Glitching\bin\Debug\Lidgren.Network.dll
+C:\Users\Darren Sweeney\Documents\GitHub\Glitching\bin\Debug\MonoGame.Framework.dll
+C:\Users\Darren Sweeney\Documents\GitHub\Glitching\bin\Debug\OpenTK.dll
+C:\Users\Darren Sweeney\Documents\GitHub\Glitching\bin\Debug\SharpDX.Direct3D11.dll
+C:\Users\Darren Sweeney\Documents\GitHub\Glitching\bin\Debug\SharpDX.dll
+C:\Users\Darren Sweeney\Documents\GitHub\Glitching\bin\Debug\SharpDX.DXGI.dll
+C:\Users\Darren Sweeney\Documents\GitHub\Glitching\bin\Debug\SharpDX.MediaFoundation.dll
+C:\Users\Darren Sweeney\Documents\GitHub\Glitching\bin\Debug\SharpDX.XAudio2.dll
+C:\Users\Darren Sweeney\Documents\GitHub\Glitching\bin\Debug\Tao.Sdl.dll
+C:\Users\Darren Sweeney\Documents\GitHub\Glitching\bin\Debug\SharpDX.DXGI.xml
+C:\Users\Darren Sweeney\Documents\GitHub\Glitching\bin\Debug\SharpDX.XAudio2.xml
+C:\Users\Darren Sweeney\Documents\GitHub\Glitching\bin\Debug\SharpDX.MediaFoundation.xml
+C:\Users\Darren Sweeney\Documents\GitHub\Glitching\bin\Debug\SharpDX.xml
+C:\Users\Darren Sweeney\Documents\GitHub\Glitching\bin\Debug\SharpDX.Direct3D11.xml
+C:\Users\Darren Sweeney\Documents\GitHub\Glitching\obj\x86\Debug\Dazzer.csprojResolveAssemblyReference.cache

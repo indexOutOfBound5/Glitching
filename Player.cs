@@ -20,9 +20,11 @@ namespace Dazzer
         Texture2D pTexture;
         Vector2 origin;
 
+        KeyboardState previousKey;
+
 		public Player(ContentManager content)
         {
-            pTexture = content.Load<Texture2D>("Player");
+            pTexture = content.Load<Texture2D>("Rock");
             position = new Vector2();
             scale = 0.3f;
             origin = new Vector2(pTexture.Width * scale, pTexture.Height * scale);
@@ -31,42 +33,50 @@ namespace Dazzer
 		public void Update()
         {
             position += playerVelocity;
+
+            playerVelocity.Y += 0.1f;
+
+            PCInput();
         }
 
-        public void PCInput(Keys UpDir, Keys downDir, Keys leftDir, Keys rightDir)
+        public void PCInput()
         {
             KeyboardState keyboard = Keyboard.GetState();
 
-            if (keyboard.IsKeyDown(rightDir))
+            if (keyboard.IsKeyDown(Keys.Space))
             {
-                playerRotation += 0.08f;
+                playerVelocity.Y = -tangentialVelocity * 2f;
+            }
+            else if (position.Y > 640)
+            {
+                playerVelocity = Vector2.Zero;
             }
 
-            if (keyboard.IsKeyDown(leftDir))
+            if (keyboard.IsKeyDown(Keys.Right) && previousKey.IsKeyUp(Keys.Right))
             {
-                playerRotation -= 0.08f;
+                playerVelocity.X += 0.9f;
+            }
+            else
+            {
+                playerVelocity.X -= friction;
             }
 
-            if (keyboard.IsKeyDown(UpDir))
+            if (keyboard.IsKeyDown(Keys.Left) && previousKey.IsKeyUp(Keys.Left))
             {
-                playerVelocity.X = (float)Math.Cos(playerRotation) * tangentialVelocity * 2f;
-                playerVelocity.Y = (float)Math.Sin(playerRotation) * tangentialVelocity * 2f;
+                playerVelocity.X -= 0.9f;
+            }
+            else
+            {
+                playerVelocity.X += friction;
             }
 
-            else if (playerVelocity != Vector2.Zero)
-            {
-                float i = playerVelocity.X;
-                float j = playerVelocity.Y;
-
-                playerVelocity.X -= friction * i;
-                playerVelocity.Y -= friction * j;
-            }
+            previousKey = keyboard;
         }
 
         public void Draw(SpriteBatch spriteBatch)
         {
             spriteBatch.Begin();
-            spriteBatch.Draw(pTexture, position, null, Color.Red, playerRotation, origin, scale, SpriteEffects.None, 0.0f);
+            spriteBatch.Draw(pTexture, position, new Rectangle(0, 0, 50, 90), Color.Red, playerRotation, origin, scale, SpriteEffects.None, 0.0f);
             spriteBatch.End();
         }
     }

@@ -53,7 +53,7 @@ namespace Dazzer
                 Exit();
 
             playerOne.Update();
-            playerOne.PCInput(Keys.Up, Keys.Down, Keys.Left, Keys.Right);
+            playerOne.PCInput();
 
             base.Update(gameTime);
         }
