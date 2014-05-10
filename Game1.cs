@@ -55,9 +55,6 @@ namespace Dazzer
             playerOne.Update();
             playerOne.PCInput(Keys.Up, Keys.Down, Keys.Left, Keys.Right);
 
-            playerTwo.Update();
-            playerTwo.PCInput(Keys.W, Keys.S, Keys.A, Keys.D);
-
             base.Update(gameTime);
         }
 
@@ -77,7 +74,6 @@ namespace Dazzer
                         GraphicsDevice.Clear(Color.White);
                         grid.Draw(spriteBatch);
                         playerOne.Draw(spriteBatch);
-                        playerTwo.Draw(spriteBatch);
 
                         break;
                     }

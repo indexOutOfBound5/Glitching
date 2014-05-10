@@ -20,7 +20,7 @@ namespace Dazzer
         Texture2D pTexture;
         Vector2 origin;
 
-        public Player(ContentManager content)
+		public Player(ContentManager content)
         {
             pTexture = content.Load<Texture2D>("Player");
             position = new Vector2();
@@ -28,7 +28,7 @@ namespace Dazzer
             origin = new Vector2(pTexture.Width * scale, pTexture.Height * scale);
         }
 
-        public override void Update()
+		public void Update()
         {
             position += playerVelocity;
         }
@@ -63,7 +63,7 @@ namespace Dazzer
             }
         }
 
-        public override void Draw(SpriteBatch spriteBatch)
+        public void Draw(SpriteBatch spriteBatch)
         {
             spriteBatch.Begin();
             spriteBatch.Draw(pTexture, position, null, Color.Red, playerRotation, origin, scale, SpriteEffects.None, 0.0f);

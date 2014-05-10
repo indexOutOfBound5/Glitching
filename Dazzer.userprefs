@@ -2,19 +2,11 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Game1.cs">
     <Files>
-      <File FileName="Level.cs" Line="9" Column="28" />
-      <File FileName="EntityManager.cs" Line="3" Column="17" />
+      <File FileName="Level.cs" Line="1" Column="1" />
+      <File FileName="EntityManager.cs" Line="1" Column="1" />
       <File FileName="Game1.cs" Line="4" Column="17" />
+      <File FileName="Grid.cs" Line="22" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="Dazzer" expanded="True">
-            <Node name="Game1.cs" selected="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

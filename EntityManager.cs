@@ -14,11 +14,11 @@ namespace Dazzer
 
 		}
 
-		public GenericObject CreateEntity(Texture2D texture, SoundEffect soundEffect)
+		public GenericObject CreateEntity(Texture2D texture)
 		{
 			entities++;
 
-			return new GenericObject (texture, soundEffect);
-		} 
+			return new GenericObject (texture);
+		}
 	}
 }

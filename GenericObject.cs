@@ -5,32 +5,41 @@ using Microsoft.Xna.Framework.Audio;
 
 namespace Dazzer
 {
-	abstract class GenericObject
+	public class GenericObject
     {
         public float scale = 1;
 		public Vector2 position;
-		private Texture2D texture;
-		private SoundEffect soundEffect;
+		public Texture2D texture;
+		public SoundEffect soundEffect;
 
-        public abstract void Update();
-		public GenericObject(Texture2D texture, SoundEffect soundEffect)
+        public void Update()
+		{
+		}
+
+		public GenericObject(Texture2D texture)
 		{
 			this.texture = texture;
-			this.soundEffect = soundEffect;
 		}
 
-		public GenericObject GetTexture
+		public GenericObject(): base()
 		{
-			get { texture; }
-			set;
+
 		}
 
-		public GenericObject GetSoundEffect
+		public Texture2D GetTexture
 		{
-			get { soundEffect; }
-			set;
+			get { return texture; }
+			set{ }
 		}
 
-        public abstract void Draw(SpriteBatch spriteBatch);
+		public SoundEffect GetSoundEffect
+		{
+			get { return soundEffect; }
+			set{ }
+		}
+
+        public void Draw(SpriteBatch spriteBatch)
+		{
+		}
     }
 }

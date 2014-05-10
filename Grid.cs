@@ -15,13 +15,8 @@ namespace Dazzer
     {
         int[,] gridMap;
         Texture2D texture;
-<<<<<<< HEAD
         int width = 100;
         int height = 100;
-=======
-        int width = 39;
-        int height = 40;
->>>>>>> 5371fc9aa661729189fc21af1ab6132ed0fc513b
 
         public Grid(ContentManager content)
         {
